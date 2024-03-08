@@ -91,7 +91,7 @@
     letter-spacing: -1.584px;
     margin: 0;
 }
-.section1 .heading h1{
+.section1 .heading .subheading h1{
     text-align: center;
     font-family: "Inter V";
     font-size: 94px;
@@ -107,15 +107,19 @@
     -webkit-text-fill-color: transparent;
     /* background-color: rgba(95, 66, 255,0.1); */
 }
+.section1 .heading .subheading{
+    width: fit-content;
+    background-color: #EAEBFF;
+}
 .section1 .heading .vector1{
     position: absolute;
-    left:80px;
+    left:110px;
     bottom: 0px;
 }
 .section1 .heading .vector2{
     position: absolute;
-    bottom: 75px;
-    right: 28px;
+    bottom: 79px;
+    right: 110px;
 }
 .section1 .v2{
     position: absolute;
@@ -972,6 +976,7 @@
     line-height: 100%; /* 18px */
     letter-spacing: 0.216px;
     margin-top: 50px;
+    border: none;
 }
 
 .section7{
@@ -1191,12 +1196,15 @@
         font-size: 42px;
         letter-spacing: -0.924px;
     }
-    .section1 .heading h1{
-        width: 356.518px;
+    .section1 .heading .subheading h1{
+        width: 100%;
         height: 65.783px;
         flex-shrink: 0;
         font-size: 55.21px;
         letter-spacing: -1.546px;
+    }
+    .section1 .heading .subheading{
+        width: 259px;
     }
     .section1 .subhead{
         left:29px;
