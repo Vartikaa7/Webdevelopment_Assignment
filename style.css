@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Inter'; /* Choose a custom name for your font */
+    src: url('./Inter-4.0/InterVariable.ttf') format('truetype'); /* Replace with the actual URL or path to your .ttf file */
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+@font-face {
+    font-family: 'Inter V'; /* Choose a custom name for your font */
+    src: url('./Inter-4.0/InterVariable.ttf') format('truetype'); /* Replace with the actual URL or path to your .ttf file */
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
 *{
     margin: 0;
     padding: 0;
@@ -46,7 +58,7 @@
 .section1 .header .menu-list p{
     display: flex;
     width: 130px;
-    padding: 8px 18px 9px 20px;
+    padding: 8px 0 9px 0;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -64,6 +76,8 @@
 .section1 .header .menu-list .p{
     display: flex;
     gap: 4px;
+    padding-left: 20px;
+    padding-right: 18px;
     color: #383645;
     letter-spacing: 0.27px;
     width: 79px;
@@ -89,7 +103,7 @@
     font-weight: 600;
     line-height: 100%; /* 72px */
     letter-spacing: -1.584px;
-    margin: 0;
+    margin:0;
 }
 .section1 .heading .subheading h1{
     text-align: center;
@@ -110,15 +124,16 @@
 .section1 .heading .subheading{
     width: fit-content;
     background-color: #EAEBFF;
+    margin-top: 10px;
 }
 .section1 .heading .vector1{
     position: absolute;
     left:110px;
-    bottom: 0px;
+    bottom: -10px;
 }
 .section1 .heading .vector2{
     position: absolute;
-    bottom: 79px;
+    bottom: 69px;
     right: 110px;
 }
 .section1 .v2{
@@ -163,7 +178,7 @@
     background: #534AFF;
     height: 48px;
     position: absolute;
-    left:665px;
+    left:630px;
     top:465.75px;
     border: none;
 }
@@ -251,7 +266,7 @@
 .section2 h2 span svg{
     position: relative;
     top:-70px;
-    left:120px;
+    left:130px;
 }
 .section2 .data{
     display: flex;
@@ -284,7 +299,6 @@
 }
 .section2 .data .data1 .box1 .p1{
     display: flex;
-    width: 602px;
     align-items: center;
     gap: 8px;
     color: #211F28;
@@ -379,7 +393,7 @@
     height: 100%;
     width: 350px;
     border-radius: 24px;
-    border: 1px solid #FF7474;
+    /* border: 1px solid #FF7474; */
     background: #FEE;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02), 0px 0px 12px 0px rgba(0, 0, 0, 0.01);
     background: url("./section2/Frame\ 1171276040.png");
@@ -795,6 +809,7 @@
     font-weight: 600;
     line-height: 104%; /* 62.4px */
     letter-spacing: -1.32px;
+    margin: 10px 0;
 }
 .section5 .detail .text{
     color: #5D5B71;
@@ -1208,7 +1223,7 @@
     }
     .section1 .subhead{
         left:29px;
-        top:225px;
+        top:255px;
         width: 318px;
         font-family: Inter;
         font-size: 14px;
@@ -1234,6 +1249,7 @@
         width: 15px;
         height: 15px;
         flex-shrink: 0;
+        left:-140px;
     }
     .section1 .heading .vector2{
         width: 15px;
@@ -1241,7 +1257,7 @@
         flex-shrink: 0;
         position: relative;
         top:-75px;
-        left:130px;
+        left:140px;
     }
     .section1 .v2{
         top:356px;
@@ -1254,6 +1270,8 @@
         width: 10px;
         height: 10px;
         flex-shrink: 0;
+        top:351px;
+        left:320px;
     }
     .section1 .data{
         width: 341.076px;
@@ -1326,12 +1344,13 @@
     }
     .section2 .data .data1 .box1{
         width: 340px;
-        padding: 32px;
+        padding: 32px 0 32px 32px;
         height: 192px;
     }
     .section2 .data .data1 .box1 .p1{
-        width: 283px;
+        width: fit-content;
         height: 28px;
+        flex-wrap: nowrap;
          
     }
     .section2 .data .data1 .box1 .p1 svg{
@@ -1408,6 +1427,7 @@
         line-height: 100%; /* 15px */
         letter-spacing: 0.27px;
         margin-top: 36.5px;
+        border: none;
     }
     .section3 .data{
         width: 343px;
@@ -1501,6 +1521,12 @@
     }
     .section4 .box .box1{
         height: 290px;
+    }
+    .section4 .box .box1 svg{
+        margin-bottom: 20px;
+    }
+    .section4 .box .box1 span svg{
+        margin: 0;
     }
     .section4 .content{
         width: 342px;
