@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Inter'; /* Choose a custom name for your font */
-    src: url('./Inter-4.0/InterVariable.ttf') format('truetype'); /* Replace with the actual URL or path to your .ttf file */
-    font-weight: normal; /* Specify the font weight if needed */
-    font-style: normal; /* Specify the font style if needed */
+    font-family: 'Inter'; 
+    src: url('./Inter-4.0/InterVariable.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 @font-face {
-    font-family: 'Inter V'; /* Choose a custom name for your font */
-    src: url('./Inter-4.0/InterVariable.ttf') format('truetype'); /* Replace with the actual URL or path to your .ttf file */
-    font-weight: normal; /* Specify the font weight if needed */
-    font-style: normal; /* Specify the font style if needed */
+    font-family: 'Inter V'; 
+    src: url('./Inter-4.0/InterVariable.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 *{
     margin: 0;
@@ -443,7 +443,7 @@
 }
 .section3 .segment-control span{
     display: flex;
-    padding: 8.5px 0px;
+    padding: 8.5px;
     justify-content: center;
     align-items: center;
     gap: 6px;
@@ -1172,7 +1172,7 @@
     letter-spacing: 0.256px;
 }
 .hidden{
-    display: none;
+    display: none !important;
 }
 @media screen and (max-width:400px) {
     .main{
@@ -1848,5 +1848,10 @@
     }
 
 
+}
+.clickbtn{
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 1) !important;
 }
 
