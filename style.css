@@ -1172,7 +1172,7 @@
     letter-spacing: 0.256px;
 }
 .hidden{
-    display: none !important;
+    display: none;
 }
 @media screen and (max-width:400px) {
     .main{
@@ -1853,5 +1853,8 @@
     border-radius: 100px;
     background: rgba(255, 255, 255, 0.10);
     color: rgba(255, 255, 255, 1) !important;
+}
+.hide{
+    display: none !important;
 }
 

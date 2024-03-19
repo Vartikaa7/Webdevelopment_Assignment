@@ -13,11 +13,11 @@ for (let i=0; i<span.length;i++){
         let logo= logos[2];
         if (span[i].classList.contains("approve")){
             h4.textContent="Build no-code approves";
-            logo.classList.add("hidden");
+            logo.classList.add("hide");
         }
         else{
             h4.textContent="Build no-code workflows";
-            logo.classList.remove("hidden");
+            logo.classList.remove("hide");
         }
     });
 };
